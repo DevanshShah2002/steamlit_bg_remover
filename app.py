@@ -11,7 +11,6 @@ def get_session():
 session = get_session()
 
 
-@st.cache_data
 def remove_bg_cached(_image):
     return remove(_image, session=session)
 
